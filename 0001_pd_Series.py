@@ -14,3 +14,6 @@ print(some_series)
 # dtype: int64
 
 #z lewej etykiety przypisane automatycznie  z prawej wartości
+
+
+

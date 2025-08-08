@@ -70,7 +70,7 @@ print(df2.loc['Janusz','Zarobki'])
 #6000
 
 
-#Trzeba pamiętać o spacjach aby ich nei było przed dwukropkiem i za nim
+#Trzeba pamiętać o spacjach aby ich nie było przed dwukropkiem i za nim
 print("\n")
 print(df2.loc['Janusz':'Jolanta','Miasto':'Zawod'])
 

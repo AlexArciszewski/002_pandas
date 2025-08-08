@@ -3,6 +3,8 @@ import numpy as np
 
 # Zadanie 1. Stwórz *series* składającą się z liczb od 5 do 10. Przypisz nazwy indeksów "a,b,c,d,e,f". Przypisz tą tablicę do zmiennej *x* (nie używaj słownika).
 
+
+
 x = pd.Series([5, 6, 7, 8, 9, 10], index=['a','b','c','d','e','f'])
 print(x)
 
