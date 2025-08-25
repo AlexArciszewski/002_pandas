@@ -62,5 +62,33 @@ df = pd.DataFrame(x, columns=['Voivodeship', 'Capital',  'Population'], index=['
 # POM            Pomorskie     Gda�sk       2.35
 # MAL          Ma�opolskie     Krak�w       3.41
 
+x = np.array([['Mazowieckie', 'Warszawa', 5.42],
+            ['Warminsko-Mazurskie', 'Olsztyn', 	1.42],
+            ['Podlaskie', 'Białystok', 	1.18],
+            ['Pomorskie', 'Gdańsk', 	2.35],
+            ['Małopolskie', 'Kraków', 	3.41]]
+        )
 
+print(x)
+print(x.size)
+
+df = pd.DataFrame(x)
+print(df)
+#                      0          1     2
+# 0          Mazowieckie   Warszawa  5.42
+# 1  Warminsko-Mazurskie    Olsztyn  1.42
+# 2            Podlaskie  Bia�ystok  1.18
+# 3            Pomorskie     Gda�sk  2.35
+# 4          Ma�opolskie     Krak�w  3.41
+
+df.index += 1
+df.columns = ['woj','miasto','populacja']
+print(df)
+
+#                    woj     miasto populacja
+# 1          Mazowieckie   Warszawa      5.42
+# 2  Warminsko-Mazurskie    Olsztyn      1.42
+# 3            Podlaskie  Bia�ystok      1.18
+# 4            Pomorskie     Gda�sk      2.35
+# 5          Ma�opolskie     Krak�w      3.41
 

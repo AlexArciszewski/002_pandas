@@ -24,6 +24,31 @@ print(some_series.index)
 print(some_series[0])
 #1
 
+series = pd.Series([1, 2, 3, 4, 5])
+print(series)
+
+# 0    1
+# 1    2
+# 2    3
+# 3    4
+# 4    5
+# dtype: int64
+
+
+other_series = pd.Series([1, 2, 3], index=["a", "b", "c"])
+print(other_series)
+
+# a    1
+# b    2
+# c    3
+# dtype: int64
+
+
+print(other_series.values)
+# [1 2 3]
+print(other_series.index)
+# Index(['a', 'b', 'c'], dtype='object')
+
 
 
 
