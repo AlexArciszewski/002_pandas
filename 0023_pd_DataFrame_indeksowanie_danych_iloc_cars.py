@@ -24,3 +24,28 @@ df = df.rename(columns={'condition':'ends in'})
 
 print(df.head())
 
+print(df.iloc[0])
+# [5 rows x 12 columns]
+# price                         16900
+# brand                         acura
+# model                           mdx
+# year                           2014
+# title_status          clean vehicle
+# mileage                     63500.0
+# color                        silver
+# vin               5fryd3h20eb002546
+# lot                       167775829
+# state                       florida
+# country                         usa
+# ends in                 1 days left
+# Name: 596, dtype: object
+
+
+print(df.iloc[0,0])
+#16900
+
+print(df.iloc[:2,:2])
+
+#      price  brand
+# 596  16900  acura
+# 391   3900  acura
