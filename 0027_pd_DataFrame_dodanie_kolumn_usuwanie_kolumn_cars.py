@@ -124,3 +124,11 @@ print(df.head())
 
 #        brand    model  price  ...       state country        ends in
 # 0     toyota  cruiser   6300  ...  new jersey     usa   10 days left
+
+
+
+
+
+
+
+
