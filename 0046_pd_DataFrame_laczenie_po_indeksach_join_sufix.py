@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-
 dane1 = pd.DataFrame(
     {
         'Imie':['Zosia','Michal','Ania','Szymon','Paulina','Monika','Hose'],
@@ -10,7 +9,6 @@ dane1 = pd.DataFrame(
     )
 print('zawartosc dane1')
 print(dane1)
-
 
 # zawartosc dane1
 #       Imie    Miasto
@@ -28,9 +26,7 @@ dane2 = pd.DataFrame(
         }
     ) 
 
-
 print("\nzawartosc2 dane2\n")
-
 print(dane2)
 # zawartosc dane2
 #     Imie  Waga

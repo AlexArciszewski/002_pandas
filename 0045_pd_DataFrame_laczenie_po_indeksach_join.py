@@ -6,8 +6,6 @@ import pandas as pd
 # • Trzecim argumentem jest on, które definiuje na podstawie jakiej kolumny chcemy połączyć zbiory
 # • Czwartym argumentem jest how, które definiuje w jaki sposób chcemy połączyć nasze zbiory. Przyjmuje cztery możliwe wartości: inner, outer, left oraz right.
 
-
-
 dane1 = pd.DataFrame(
     {
         'nazwisko':['Kowalska','Kot','Sienkiewicz','Nowak'],
@@ -16,7 +14,6 @@ dane1 = pd.DataFrame(
     )
 print('zawartosc dane1')
 print(dane1)
-
 
 # zawartosc dane1
 #       nazwisko    Miasto
@@ -31,7 +28,6 @@ dane2 = pd.DataFrame(
         'Waga':[90 ,80, 75,70]
         }
     ) 
-
 
 print("\nzawartosc2 dane2\n")
 
@@ -54,5 +50,4 @@ print(fin)
 # 3        Nowak  Warszawa   Jezus    70
 
 #jak taki blad sie pojawia to znaczy żew dwoch zbiorach danych sa takie same kolumny poza indeksem i nie wiemy po czym skaldac
-
 #ValueError: columns overlap but no suffix specified: Index(['Imie'], dtype='object')

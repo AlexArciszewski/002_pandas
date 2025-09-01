@@ -6,7 +6,6 @@ import pandas as pd
 # • Trzecim argumentem jest on, które definiuje na podstawie jakiej kolumny chcemy połączyć zbiory
 # • Czwartym argumentem jest how, które definiuje w jaki sposób chcemy połączyć nasze zbiory. Przyjmuje cztery możliwe wartości: inner, outer, left oraz right.
 
-
 dane1 = pd.DataFrame(
     {
         'Imie':['Zosia','Michal','Ania','Szymon','Paulina','Monika','Hose'],
@@ -15,7 +14,6 @@ dane1 = pd.DataFrame(
     )
 print('zawartosc dane1')
 print(dane1)
-
 
 # zawartosc dane1
 #       Imie    Miasto
@@ -32,7 +30,6 @@ dane2 = pd.DataFrame(
         'Waga':[90 ,80, 75,70]
         }
     ) 
-
 
 print("\nzawartosc2 dane2\n")
 
