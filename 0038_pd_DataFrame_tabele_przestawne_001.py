@@ -45,7 +45,7 @@ print(df.unstack())
 #        16      Analityk
 #        17      Ksi�gowy
 # Length: 162, dtype: object
-print("Tworzymyt abele przestawną")
+print("Tworzymy tabele przestawną")
 dane = pd.pivot_table(df,
                       index="Miasto",
                       columns='Wiek',

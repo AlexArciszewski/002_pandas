@@ -1,3 +1,4 @@
+import pandas as pd
 
 df2 = pd.read_csv(r"C:\Dane\2_Python_Data\998_Databases\2_db_cars_csv\mod_cars2.csv")
 df2 = df2.drop(columns=["Unnamed: 0.1", "Unnamed: 0"])

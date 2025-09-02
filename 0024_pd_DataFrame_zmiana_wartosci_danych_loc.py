@@ -34,3 +34,8 @@ print(df)
 df.loc[1,'Wiek'] = 20000
 
 print(df)
+#          Imie   Nazwisko   Wiek  Staz  ...  Zarobki  Plec    Miasto       Zawod
+# 0    Adrianna       Bono     23     2  ...     5000     K  Warszawa    Analityk
+# 1   Agnieszka   Anielska  20000     2  ...     7000     K  Warszawa  Sprzedawca
+# 2     Andrzej        Lis     32    11  ...    13000     M    Krak�w   Kierownik
+# 3     Gracjan      Pa�ka     33     8  ...     6000     M    Gda�sk    Ksi�gowy

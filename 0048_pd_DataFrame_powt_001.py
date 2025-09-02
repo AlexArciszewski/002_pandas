@@ -62,7 +62,7 @@ df.info()
 # dtypes: object(6)
 # memory usage: 612.0+ bytes
 
-#Zmiana ze stringu czyli object na wartosci numeryczne
+#3 Zmiana ze stringu czyli object na wartosci numeryczne
 
 df['Liczba meczy'] = pd.to_numeric(df['Liczba meczy'])
 df['Liczba goli'] = pd.to_numeric(df['Liczba goli'])
