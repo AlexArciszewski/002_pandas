@@ -69,6 +69,8 @@ print(df_shuffled.reset_index())
 # 15      2    Andrzej        Lis    32  ...    13000     M    Krak�w   Kierownik
 # 16      3    Gracjan      Pa�ka    33  ...     6000     M    Gda�sk    Ksi�gowy
 # 17      6   Karolina     Zgrzyt    24  ...     4000     K    Krak�w    Ksi�gowy
-df_ordered = df_shuffled.reset_index(inplace=True)
+
+#aby nie meic dodatkowych kolumn
+df_shuffled.reset_index(inplace=True,drop=True)
 
 print(df_ordered)

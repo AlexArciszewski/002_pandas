@@ -1,3 +1,5 @@
+#mean(numeric_only=True))
+
 import pandas as pd
 
 df = pd.read_excel(r"C:\Dane\2_Python_Data\999_Zbiory danych\pracownicy.xlsx")
@@ -38,7 +40,7 @@ print(df.groupby('Miasto')['Nazwisko'].count())
 # Name: Nazwisko, dtype: int64
 print("\n")
 #Średnie arobki w zależnosci od miasta
-print(df.groupby('Miasto')['Zarobki'].mean())
+print(df.groupby('Miasto')['Zarobki'].mean(numeric_only=True))
 
 
 # Miasto

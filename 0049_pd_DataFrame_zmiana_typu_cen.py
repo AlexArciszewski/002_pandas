@@ -11,3 +11,6 @@ df["Price"] = (
     .astype(int)                            # konwersja na liczbę całkowitą
 #Usuwanie dwoch sotatnich znaków
 df["Price"] = df["Price"].astype(str).str[:-2]
+
+
+df["Price"] = df["Price"].str.replace(r'[\$\,\.]', '', regex=True)

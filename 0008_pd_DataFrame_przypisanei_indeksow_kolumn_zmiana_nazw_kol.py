@@ -33,3 +33,5 @@ print(df)
 # 3            Podlaskie   Bia�ystok              1.18
 # 4            Pomorskie      Gda�sk              2.35
 # 5          ma�opolskie      Krak�w              3.41
+#Wiersze
+df.index = []
